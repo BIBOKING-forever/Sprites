@@ -1,0 +1,115 @@
+{ "frames": {
+   "Screenshot 2025-08-15 at 11.10.32 PM 0.png": {
+    "frame": { "x": 0, "y": 0, "w": 46, "h": 80 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 46, "h": 80 },
+    "sourceSize": { "w": 46, "h": 80 },
+    "duration": 100
+   },
+   "Screenshot 2025-08-15 at 11.10.32 PM 1.png": {
+    "frame": { "x": 46, "y": 0, "w": 46, "h": 80 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 46, "h": 80 },
+    "sourceSize": { "w": 46, "h": 80 },
+    "duration": 100
+   },
+   "Screenshot 2025-08-15 at 11.10.32 PM 2.png": {
+    "frame": { "x": 92, "y": 0, "w": 46, "h": 80 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 46, "h": 80 },
+    "sourceSize": { "w": 46, "h": 80 },
+    "duration": 100
+   },
+   "Screenshot 2025-08-15 at 11.10.32 PM 3.png": {
+    "frame": { "x": 138, "y": 0, "w": 46, "h": 80 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 46, "h": 80 },
+    "sourceSize": { "w": 46, "h": 80 },
+    "duration": 100
+   },
+   "Screenshot 2025-08-15 at 11.10.32 PM 4.png": {
+    "frame": { "x": 184, "y": 0, "w": 46, "h": 80 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 46, "h": 80 },
+    "sourceSize": { "w": 46, "h": 80 },
+    "duration": 100
+   },
+   "Screenshot 2025-08-15 at 11.10.32 PM 5.png": {
+    "frame": { "x": 230, "y": 0, "w": 46, "h": 80 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 46, "h": 80 },
+    "sourceSize": { "w": 46, "h": 80 },
+    "duration": 100
+   },
+   "Screenshot 2025-08-15 at 11.10.32 PM 6.png": {
+    "frame": { "x": 276, "y": 0, "w": 46, "h": 80 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 46, "h": 80 },
+    "sourceSize": { "w": 46, "h": 80 },
+    "duration": 100
+   },
+   "Screenshot 2025-08-15 at 11.10.32 PM 7.png": {
+    "frame": { "x": 322, "y": 0, "w": 46, "h": 80 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 46, "h": 80 },
+    "sourceSize": { "w": 46, "h": 80 },
+    "duration": 100
+   },
+   "Screenshot 2025-08-15 at 11.10.32 PM 8.png": {
+    "frame": { "x": 368, "y": 0, "w": 46, "h": 80 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 46, "h": 80 },
+    "sourceSize": { "w": 46, "h": 80 },
+    "duration": 100
+   },
+   "Screenshot 2025-08-15 at 11.10.32 PM 9.png": {
+    "frame": { "x": 414, "y": 0, "w": 46, "h": 80 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 46, "h": 80 },
+    "sourceSize": { "w": 46, "h": 80 },
+    "duration": 100
+   },
+   "Screenshot 2025-08-15 at 11.10.32 PM 10.png": {
+    "frame": { "x": 460, "y": 0, "w": 46, "h": 80 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 46, "h": 80 },
+    "sourceSize": { "w": 46, "h": 80 },
+    "duration": 100
+   },
+   "Screenshot 2025-08-15 at 11.10.32 PM 11.png": {
+    "frame": { "x": 506, "y": 0, "w": 46, "h": 80 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 46, "h": 80 },
+    "sourceSize": { "w": 46, "h": 80 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.3.14.4-arm64",
+  "format": "RGBA8888",
+  "size": { "w": 552, "h": 80 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "WALK RIGHT", "from": 0, "to": 5, "direction": "forward", "color": "#000000ff" },
+   { "name": "WALK LEFT", "from": 6, "to": 11, "direction": "forward", "color": "#000000ff" }
+  ],
+  "layers": [
+   { "name": "Sprite Sheet", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}
