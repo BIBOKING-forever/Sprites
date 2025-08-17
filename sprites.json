@@ -1,8 +1,8 @@
 {
-  "generated": "2025-08-17T03:25:29.088Z",
+  "generated": "2025-08-17T18:36:33.232Z",
   "repository": "biboking-forever/Sprites",
   "baseUrl": "https://biboking-forever.github.io/Sprites",
-  "totalSprites": 4,
+  "totalSprites": 8,
   "sprites": [
     {
       "name": "BULLET",
@@ -25,6 +25,26 @@
       "type": "spritesheet",
       "json": "https://biboking-forever.github.io/Sprites/crono.json",
       "png": "https://biboking-forever.github.io/Sprites/CRONO.png"
+    },
+    {
+      "name": "CRONO-WALKING-LEFT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/CRONO-WALKING-LEFT.gif"
+    },
+    {
+      "name": "CRONO-WALKING-RIGHT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/CRONO-WALKING-RIGHT.gif"
+    },
+    {
+      "name": "PERCHE-WALKING-LEFT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/PERCHE-WALKING-LEFT.gif"
+    },
+    {
+      "name": "PERCHE-WALKING-RIGHT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/PERCHE-WALKING-RIGHT.gif"
     }
   ]
 }
