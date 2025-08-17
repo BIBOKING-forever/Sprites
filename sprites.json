@@ -2,13 +2,13 @@
   "sprites": [
     {
       "name": "CRONO",
-      "json": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/CRONO.json",
-      "png": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/CRONO.png"
+      "json": "https://biboking-forever.github.io/Sprites/crono.json",
+      "png": "https://biboking-forever.github.io/Sprites/CRONO.png"
     },
     {
       "name": "Bullet",
-      "json": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/BULLET.json",
-      "png": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/BULLET.png"
+      "json": "https://biboking-forever.github.io/Sprites/bullet.json",
+      "png": "https://biboking-forever.github.io/Sprites/bullet.png"
     }
   ]
 }
