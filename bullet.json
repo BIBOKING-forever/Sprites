@@ -1,5 +1,5 @@
 { "frames": {
-   "walk left 0": {
+   "WALK LEFT 0": {
     "frame": { "x": 0, "y": 0, "w": 232, "h": 156 },
     "rotated": false,
     "trimmed": false,
@@ -7,7 +7,7 @@
     "sourceSize": { "w": 232, "h": 156 },
     "duration": 100
    },
-   "walk left 1": {
+   "WALK LEFT 1": {
     "frame": { "x": 232, "y": 0, "w": 232, "h": 156 },
     "rotated": false,
     "trimmed": false,
@@ -15,7 +15,7 @@
     "sourceSize": { "w": 232, "h": 156 },
     "duration": 100
    },
-   "walk right 2": {
+   "WALK RIGHT 2": {
     "frame": { "x": 464, "y": 0, "w": 232, "h": 156 },
     "rotated": false,
     "trimmed": false,
@@ -23,7 +23,7 @@
     "sourceSize": { "w": 232, "h": 156 },
     "duration": 100
    },
-   "walk right 3": {
+   "WALK RIGHT 3": {
     "frame": { "x": 696, "y": 0, "w": 232, "h": 156 },
     "rotated": false,
     "trimmed": false,
@@ -40,8 +40,8 @@
   "size": { "w": 928, "h": 156 },
   "scale": "1",
   "frameTags": [
-   { "name": "walk left", "from": 0, "to": 1, "direction": "forward", "color": "#000000ff" },
-   { "name": "walk right", "from": 2, "to": 3, "direction": "forward", "color": "#000000ff" }
+   { "name": "WALK LEFT", "from": 0, "to": 1, "direction": "forward", "color": "#000000ff" },
+   { "name": "WALK RIGHT", "from": 2, "to": 3, "direction": "forward", "color": "#000000ff" }
   ],
   "layers": [
    { "name": "Layer", "opacity": 255, "blendMode": "normal" }
