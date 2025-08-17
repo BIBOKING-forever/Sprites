@@ -1,14 +1,24 @@
 {
-  "generated": "2025-08-17T03:14:54.710Z",
+  "generated": "2025-08-17T03:25:29.088Z",
   "repository": "biboking-forever/Sprites",
   "baseUrl": "https://biboking-forever.github.io/Sprites",
-  "totalSprites": 2,
+  "totalSprites": 4,
   "sprites": [
     {
       "name": "BULLET",
       "type": "spritesheet",
       "json": "https://biboking-forever.github.io/Sprites/bullet.json",
       "png": "https://biboking-forever.github.io/Sprites/bullet.png"
+    },
+    {
+      "name": "BULLET10",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/bullet10.gif"
+    },
+    {
+      "name": "CRONO",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/crono.gif"
     },
     {
       "name": "CRONO",
