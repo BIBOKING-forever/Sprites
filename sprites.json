@@ -1,8 +1,8 @@
 {
-  "generated": "2025-08-17T20:41:41.098Z",
+  "generated": "2025-08-17T20:47:35.598Z",
   "repository": "biboking-forever/Sprites",
   "baseUrl": "https://biboking-forever.github.io/Sprites",
-  "totalSprites": 16,
+  "totalSprites": 18,
   "sprites": [
     {
       "name": "ALTAIR-WALKING-LEFT",
@@ -55,6 +55,16 @@
       "name": "CRONO-WALKING-RIGHT",
       "type": "gif",
       "gif": "https://biboking-forever.github.io/Sprites/CRONO-WALKING-RIGHT.gif"
+    },
+    {
+      "name": "MEGAMANN-WALKING-LEFT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/MEGAMANN-WALKING-LEFT.gif"
+    },
+    {
+      "name": "MEGAMANN-WALKING-RIGHT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/MEGAMANN-WALKING-RIGHT.gif"
     },
     {
       "name": "PERCHE-WALKING-LEFT",
