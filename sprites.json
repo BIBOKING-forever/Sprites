@@ -1,14 +1,24 @@
 {
-  "generated": "2025-08-17T18:36:33.232Z",
+  "generated": "2025-08-17T18:41:05.053Z",
   "repository": "biboking-forever/Sprites",
   "baseUrl": "https://biboking-forever.github.io/Sprites",
-  "totalSprites": 8,
+  "totalSprites": 10,
   "sprites": [
     {
       "name": "BULLET",
       "type": "spritesheet",
       "json": "https://biboking-forever.github.io/Sprites/bullet.json",
       "png": "https://biboking-forever.github.io/Sprites/bullet.png"
+    },
+    {
+      "name": "BULLET-WALKING-LEFT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/bullet-WALKING-LEFT.gif"
+    },
+    {
+      "name": "BULLET-WALKING-RIGHT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/bullet-WALKING-RIGHT.gif"
     },
     {
       "name": "BULLET10",
