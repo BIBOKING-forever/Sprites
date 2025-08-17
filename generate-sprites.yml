@@ -1,0 +1,45 @@
+name: Generate Sprites List
+
+on:
+  push:
+    paths:
+      - "*.json"
+      - "*.png"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Generate sprites.json
+        run: |
+          echo '{ "sprites": [' > sprites.json
+          first=true
+          for f in *.json; do
+            if [ "$f" != "sprites.json" ]; then
+              name=$(basename "$f" .json)
+              # extract PNG from JSON
+              png=$(jq -r '.meta.image' "$f")
+              json_url="https://biboking-forever.github.io/Sprites/$f"
+              png_url="https://biboking-forever.github.io/Sprites/$png"
+
+              if [ "$first" = true ]; then
+                first=false
+              else
+                echo ',' >> sprites.json
+              fi
+
+              echo "  { \"name\": \"$name\", \"json\": \"$json_url\", \"png\": \"$png_url\" }" >> sprites.json
+            fi
+          done
+          echo ']}' >> sprites.json
+
+      - name: Commit updated sprites.json
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "actions@github.com"
+          git add sprites.json
+          git commit -m "Update sprites.json"
+          git push
