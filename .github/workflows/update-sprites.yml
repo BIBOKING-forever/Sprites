@@ -1,0 +1,122 @@
+name: Auto-Update Sprites List
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - '*.gif'
+      - '*.png'
+      - '*.json'
+  workflow_dispatch:
+
+jobs:
+  update-sprites:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Generate sprites.json
+      run: |
+        node << 'EOF'
+        const fs = require('fs');
+        const path = require('path');
+        
+        // Your specific GitHub Pages URL
+        const baseUrl = 'https://biboking-forever.github.io/Sprites';
+        
+        console.log('🔍 Scanning for sprite files...');
+        
+        // Get all files in current directory
+        const files = fs.readdirSync('.');
+        
+        // Find different file types
+        const gifFiles = files.filter(file => file.endsWith('.gif'));
+        const pngFiles = files.filter(file => file.endsWith('.png'));
+        const jsonFiles = files.filter(file => 
+          file.endsWith('.json') && 
+          !file.startsWith('sprites') && 
+          !file.startsWith('package')
+        );
+        
+        console.log('Found GIFs:', gifFiles);
+        console.log('Found PNGs:', pngFiles);
+        console.log('Found JSON files:', jsonFiles);
+        
+        const sprites = [];
+        
+        // Add GIF sprites
+        gifFiles.forEach(file => {
+          const name = path.basename(file, '.gif').toUpperCase();
+          sprites.push({
+            name: name,
+            type: 'gif',
+            gif: `${baseUrl}/${file}`
+          });
+        });
+        
+        // Add PNG+JSON sprite sheets (Aseprite format)
+        jsonFiles.forEach(jsonFile => {
+          const baseName = path.basename(jsonFile, '.json');
+          
+          // Look for corresponding PNG (case variations)
+          const pngCandidates = [
+            `${baseName}.png`,
+            `${baseName.toUpperCase()}.png`,
+            `${baseName.toLowerCase()}.png`
+          ];
+          
+          const pngFile = pngCandidates.find(candidate => 
+            pngFiles.includes(candidate)
+          );
+          
+          if (pngFile) {
+            sprites.push({
+              name: baseName.toUpperCase(),
+              type: 'spritesheet',
+              json: `${baseUrl}/${jsonFile}`,
+              png: `${baseUrl}/${pngFile}`
+            });
+          } else {
+            console.log(`⚠️ No PNG found for ${jsonFile}`);
+          }
+        });
+        
+        // Generate final sprites.json
+        const spritesData = {
+          generated: new Date().toISOString(),
+          repository: 'biboking-forever/Sprites',
+          baseUrl: baseUrl,
+          totalSprites: sprites.length,
+          sprites: sprites.sort((a, b) => a.name.localeCompare(b.name))
+        };
+        
+        // Write to file
+        fs.writeFileSync('sprites.json', JSON.stringify(spritesData, null, 2));
+        
+        console.log('✅ Generated sprites.json with', sprites.length, 'sprites');
+        console.log('Sprites found:', sprites.map(s => `${s.name} (${s.type})`).join(', '));
+        EOF
+        
+    - name: Show generated sprites.json
+      run: |
+        echo "📄 Generated sprites.json:"
+        cat sprites.json
+        
+    - name: Commit and push if changed
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action Bot"
+        
+        # Add the file
+        git add sprites.json
+        
+        # Check if there are changes to commit
+        if git diff --staged --exit-code sprites.json > /dev/null; then
+          echo "ℹ️ No changes to sprites.json"
+        else
+          echo "📝 Committing updated sprites.json"
+          git commit -m "🤖 Auto-update sprites.json - $(date '+%Y-%m-%d %H:%M')"
+          git push
+        fi
