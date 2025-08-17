@@ -1,5 +1,5 @@
 {
-  "generated": "2025-08-17T19:17:07.869Z",
+  "generated": "2025-08-17T19:17:25.161Z",
   "repository": "biboking-forever/Sprites",
   "baseUrl": "https://biboking-forever.github.io/Sprites",
   "totalSprites": 12,
@@ -11,9 +11,9 @@
       "png": "https://biboking-forever.github.io/Sprites/bullet.png"
     },
     {
-      "name": "BULLET-WALKING-LEFT",
+      "name": "BULLET-WALKING-LEFT-FLYING",
       "type": "gif",
-      "gif": "https://biboking-forever.github.io/Sprites/bullet-WALKING-LEFT.gif"
+      "gif": "https://biboking-forever.github.io/Sprites/bullet-WALKING-LEFT-FLYING.gif"
     },
     {
       "name": "BULLET-WALKING-RIGHT-FLYING",
