@@ -1,5 +1,5 @@
 { "frames": {
-   "walk right 0": {
+   "WALK RIGHT 0": {
     "frame": { "x": 0, "y": 0, "w": 46, "h": 80 },
     "rotated": false,
     "trimmed": false,
@@ -7,7 +7,7 @@
     "sourceSize": { "w": 46, "h": 80 },
     "duration": 100
    },
-   "walk right 1": {
+   "WALK RIGHT 1": {
     "frame": { "x": 46, "y": 0, "w": 46, "h": 80 },
     "rotated": false,
     "trimmed": false,
@@ -15,7 +15,7 @@
     "sourceSize": { "w": 46, "h": 80 },
     "duration": 100
    },
-   "walk right 2": {
+   "WALK RIGHT 2": {
     "frame": { "x": 92, "y": 0, "w": 46, "h": 80 },
     "rotated": false,
     "trimmed": false,
@@ -23,7 +23,7 @@
     "sourceSize": { "w": 46, "h": 80 },
     "duration": 100
    },
-   "walk right 3": {
+   "WALK RIGHT 3": {
     "frame": { "x": 138, "y": 0, "w": 46, "h": 80 },
     "rotated": false,
     "trimmed": false,
@@ -31,7 +31,7 @@
     "sourceSize": { "w": 46, "h": 80 },
     "duration": 100
    },
-   "walk right 4": {
+   "WALK RIGHT 4": {
     "frame": { "x": 184, "y": 0, "w": 46, "h": 80 },
     "rotated": false,
     "trimmed": false,
@@ -39,7 +39,7 @@
     "sourceSize": { "w": 46, "h": 80 },
     "duration": 100
    },
-   "walk right 5": {
+   "WALK RIGHT 5": {
     "frame": { "x": 230, "y": 0, "w": 46, "h": 80 },
     "rotated": false,
     "trimmed": false,
@@ -47,7 +47,7 @@
     "sourceSize": { "w": 46, "h": 80 },
     "duration": 100
    },
-   "walk left 6": {
+   "WALK LEFT 6": {
     "frame": { "x": 276, "y": 0, "w": 46, "h": 80 },
     "rotated": false,
     "trimmed": false,
@@ -55,7 +55,7 @@
     "sourceSize": { "w": 46, "h": 80 },
     "duration": 100
    },
-   "walk left 7": {
+   "WALK LEFT 7": {
     "frame": { "x": 322, "y": 0, "w": 46, "h": 80 },
     "rotated": false,
     "trimmed": false,
@@ -63,7 +63,7 @@
     "sourceSize": { "w": 46, "h": 80 },
     "duration": 100
    },
-   "walk left 8": {
+   "WALK LEFT 8": {
     "frame": { "x": 368, "y": 0, "w": 46, "h": 80 },
     "rotated": false,
     "trimmed": false,
@@ -71,7 +71,7 @@
     "sourceSize": { "w": 46, "h": 80 },
     "duration": 100
    },
-   "walk left 9": {
+   "WALK LEFT 9": {
     "frame": { "x": 414, "y": 0, "w": 46, "h": 80 },
     "rotated": false,
     "trimmed": false,
@@ -79,7 +79,7 @@
     "sourceSize": { "w": 46, "h": 80 },
     "duration": 100
    },
-   "walk left 10": {
+   "WALK LEFT 10": {
     "frame": { "x": 460, "y": 0, "w": 46, "h": 80 },
     "rotated": false,
     "trimmed": false,
@@ -87,7 +87,7 @@
     "sourceSize": { "w": 46, "h": 80 },
     "duration": 100
    },
-   "walk left 11": {
+   "WALK LEFT 11": {
     "frame": { "x": 506, "y": 0, "w": 46, "h": 80 },
     "rotated": false,
     "trimmed": false,
@@ -104,8 +104,8 @@
   "size": { "w": 552, "h": 80 },
   "scale": "1",
   "frameTags": [
-   { "name": "walk right", "from": 0, "to": 5, "direction": "forward", "color": "#000000ff" },
-   { "name": "walk left", "from": 6, "to": 11, "direction": "forward", "color": "#000000ff" }
+   { "name": "WALK RIGHT", "from": 0, "to": 5, "direction": "forward", "color": "#000000ff" },
+   { "name": "WALK LEFT", "from": 6, "to": 11, "direction": "forward", "color": "#000000ff" }
   ],
   "layers": [
    { "name": "Sprite Sheet", "opacity": 255, "blendMode": "normal" }
