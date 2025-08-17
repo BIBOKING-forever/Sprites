@@ -1,8 +1,16 @@
 {
-  "sprites": [
-    {
-      "name": "Crono",
-      "url": "https://biboking-forever.github.io/Sprites/crono.gif"
-    }
-  ]
+  "crono": {
+    "name": "CRONO",
+    "json": "https://raw.githubusercontent.com/your-username/your-repo/main/assets/CRONO.json",
+    "image": "https://raw.githubusercontent.com/your-username/your-repo/main/assets/CRONO.png",
+    "tags": ["walk right", "walk left"],
+    "scale": 2
+  },
+  "bullet": {
+    "name": "Bullet",
+    "json": "https://raw.githubusercontent.com/your-username/your-repo/main/assets/BULLET.json",
+    "image": "https://raw.githubusercontent.com/your-username/your-repo/main/assets/BULLET.png",
+    "tags": ["walk right", "walk left"],
+    "scale": 1
+  }
 }
