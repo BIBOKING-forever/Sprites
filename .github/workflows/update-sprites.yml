@@ -9,6 +9,11 @@ on:
       - '*.json'
   workflow_dispatch:
 
+# Add explicit permissions
+permissions:
+  contents: write
+  actions: read
+
 jobs:
   update-sprites:
     runs-on: ubuntu-latest
@@ -16,6 +21,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
       
     - name: Generate sprites.json
       run: |
@@ -23,15 +30,12 @@ jobs:
         const fs = require('fs');
         const path = require('path');
         
-        // Your specific GitHub Pages URL
         const baseUrl = 'https://biboking-forever.github.io/Sprites';
         
         console.log('🔍 Scanning for sprite files...');
         
-        // Get all files in current directory
         const files = fs.readdirSync('.');
         
-        // Find different file types
         const gifFiles = files.filter(file => file.endsWith('.gif'));
         const pngFiles = files.filter(file => file.endsWith('.png'));
         const jsonFiles = files.filter(file => 
@@ -60,7 +64,6 @@ jobs:
         jsonFiles.forEach(jsonFile => {
           const baseName = path.basename(jsonFile, '.json');
           
-          // Look for corresponding PNG (case variations)
           const pngCandidates = [
             `${baseName}.png`,
             `${baseName.toUpperCase()}.png`,
@@ -83,7 +86,6 @@ jobs:
           }
         });
         
-        // Generate final sprites.json
         const spritesData = {
           generated: new Date().toISOString(),
           repository: 'biboking-forever/Sprites',
@@ -92,7 +94,6 @@ jobs:
           sprites: sprites.sort((a, b) => a.name.localeCompare(b.name))
         };
         
-        // Write to file
         fs.writeFileSync('sprites.json', JSON.stringify(spritesData, null, 2));
         
         console.log('✅ Generated sprites.json with', sprites.length, 'sprites');
@@ -109,10 +110,8 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action Bot"
         
-        # Add the file
         git add sprites.json
         
-        # Check if there are changes to commit
         if git diff --staged --exit-code sprites.json > /dev/null; then
           echo "ℹ️ No changes to sprites.json"
         else
