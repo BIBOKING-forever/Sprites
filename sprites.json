@@ -1,16 +1,14 @@
 {
-  "crono": {
-    "name": "CRONO",
-    "json": "https://raw.githubusercontent.com/your-username/your-repo/main/assets/CRONO.json",
-    "image": "https://raw.githubusercontent.com/your-username/your-repo/main/assets/CRONO.png",
-    "tags": ["walk right", "walk left"],
-    "scale": 2
-  },
-  "bullet": {
-    "name": "Bullet",
-    "json": "https://raw.githubusercontent.com/your-username/your-repo/main/assets/BULLET.json",
-    "image": "https://raw.githubusercontent.com/your-username/your-repo/main/assets/BULLET.png",
-    "tags": ["walk right", "walk left"],
-    "scale": 1
-  }
+  "sprites": [
+    {
+      "name": "CRONO",
+      "json": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/CRONO.json",
+      "png": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/CRONO.png"
+    },
+    {
+      "name": "Bullet",
+      "json": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/BULLET.json",
+      "png": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/BULLET.png"
+    }
+  ]
 }
