@@ -1,8 +1,8 @@
 {
-  "generated": "2025-08-17T19:17:25.161Z",
+  "generated": "2025-08-17T20:26:00.338Z",
   "repository": "biboking-forever/Sprites",
   "baseUrl": "https://biboking-forever.github.io/Sprites",
-  "totalSprites": 12,
+  "totalSprites": 14,
   "sprites": [
     {
       "name": "BULLET",
@@ -55,6 +55,16 @@
       "name": "PERCHE-WALKING-RIGHT",
       "type": "gif",
       "gif": "https://biboking-forever.github.io/Sprites/PERCHE-WALKING-RIGHT.gif"
+    },
+    {
+      "name": "PMARIOPANIC-WALKING-LEFT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/PMARIOPANIC-WALKING-LEFT.gif"
+    },
+    {
+      "name": "PMARIOPANIC-WALKING-RIGHT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/PMARIOPANIC-WALKING-RIGHT.gif"
     },
     {
       "name": "SABIN-WALKING-LEFT",
