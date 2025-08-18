@@ -1,8 +1,8 @@
 {
-  "generated": "2025-08-17T23:57:34.040Z",
+  "generated": "2025-08-18T01:53:21.442Z",
   "repository": "biboking-forever/Sprites",
   "baseUrl": "https://biboking-forever.github.io/Sprites",
-  "totalSprites": 28,
+  "totalSprites": 36,
   "sprites": [
     {
       "name": "ALTAIR-WALKING-LEFT",
@@ -77,6 +77,16 @@
       "gif": "https://biboking-forever.github.io/Sprites/CRONO-WALKING-RIGHT.gif"
     },
     {
+      "name": "GUNDAM-WALKING-LEFT-FLYING",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/GUNDAM-WALKING-LEFT-FLYING.gif"
+    },
+    {
+      "name": "GUNDAM-WALKING-RIGHT-FLYING",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/GUNDAM-WALKING-RIGHT-FLYING.gif"
+    },
+    {
       "name": "HAGGAR-WALKING-LEFT",
       "type": "gif",
       "gif": "https://biboking-forever.github.io/Sprites/HAGGAR-WALKING-LEFT.gif"
@@ -85,6 +95,26 @@
       "name": "HAGGAR-WALKING-RIGHT",
       "type": "gif",
       "gif": "https://biboking-forever.github.io/Sprites/HAGGAR-WALKING-RIGHT.gif"
+    },
+    {
+      "name": "LINUSSHEETSIDE-WALKING-LEFT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/LINUSSHEETSIDE-WALKING-LEFT.gif"
+    },
+    {
+      "name": "LINUSSHEETSIDE-WALKING-RIGHT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/LINUSSHEETSIDE-WALKING-RIGHT.gif"
+    },
+    {
+      "name": "LINUSSUIT-WALKING-LEFT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/LINUSSUIT-WALKING-LEFT.gif"
+    },
+    {
+      "name": "LINUSSUIT-WALKING-RIGHT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/LINUSSUIT-WALKING-RIGHT.gif"
     },
     {
       "name": "MEGAMANN-WALKING-LEFT",
@@ -145,6 +175,16 @@
       "name": "UNSQUADPAL-WALKING-RIGHT-FLYING",
       "type": "gif",
       "gif": "https://biboking-forever.github.io/Sprites/unsquadpal-WALKING-RIGHT-FLYING.gif"
+    },
+    {
+      "name": "WOLVERINE-WALKING-LEFT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/WOLVERINE-WALKING-LEFT.gif"
+    },
+    {
+      "name": "WOLVERINE-WALKING-RIGHT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/WOLVERINE-WALKING-RIGHT.gif"
     }
   ]
 }
