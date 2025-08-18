@@ -1,8 +1,8 @@
 {
-  "generated": "2025-08-18T16:26:26.339Z",
+  "generated": "2025-08-18T16:49:42.468Z",
   "repository": "biboking-forever/Sprites",
   "baseUrl": "https://biboking-forever.github.io/Sprites",
-  "totalSprites": 40,
+  "totalSprites": 42,
   "sprites": [
     {
       "name": "ALTAIR-WALKING-LEFT",
@@ -165,6 +165,16 @@
       "name": "PRINNYDANCE-WALKING-RIGHT",
       "type": "gif",
       "gif": "https://biboking-forever.github.io/Sprites/PRINNYDANCE-WALKING-RIGHT.gif"
+    },
+    {
+      "name": "RAMONA-WALKING-LEFT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/RAMONA-WALKING-LEFT.gif"
+    },
+    {
+      "name": "RAMONA-WALKING-RIGHT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/RAMONA-WALKING-RIGHT.gif"
     },
     {
       "name": "SABIN-WALKING-LEFT",
