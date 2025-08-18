@@ -1,8 +1,8 @@
 {
-  "generated": "2025-08-18T01:53:21.442Z",
+  "generated": "2025-08-18T16:00:15.485Z",
   "repository": "biboking-forever/Sprites",
   "baseUrl": "https://biboking-forever.github.io/Sprites",
-  "totalSprites": 36,
+  "totalSprites": 38,
   "sprites": [
     {
       "name": "ALTAIR-WALKING-LEFT",
@@ -175,6 +175,16 @@
       "name": "UNSQUADPAL-WALKING-RIGHT-FLYING",
       "type": "gif",
       "gif": "https://biboking-forever.github.io/Sprites/unsquadpal-WALKING-RIGHT-FLYING.gif"
+    },
+    {
+      "name": "WILBUR-WALKING-LEFT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/wilbur-WALKING-LEFT.gif"
+    },
+    {
+      "name": "WILBUR-WALKING-RIGHT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/wilbur-WALKING-RIGHT.gif"
     },
     {
       "name": "WOLVERINE-WALKING-LEFT",
