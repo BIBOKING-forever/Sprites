@@ -1,8 +1,8 @@
 {
-  "generated": "2025-08-18T16:49:42.468Z",
+  "generated": "2025-08-18T18:06:24.958Z",
   "repository": "biboking-forever/Sprites",
   "baseUrl": "https://biboking-forever.github.io/Sprites",
-  "totalSprites": 42,
+  "totalSprites": 46,
   "sprites": [
     {
       "name": "ALTAIR-WALKING-LEFT",
@@ -127,6 +127,16 @@
       "gif": "https://biboking-forever.github.io/Sprites/LINUSSUIT-WALKING-RIGHT.gif"
     },
     {
+      "name": "MARIOFLY-WALKING-LEFT-FLYING",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/MARIOFLY-WALKING-LEFT-FLYING.gif"
+    },
+    {
+      "name": "MARIOFLY-WALKING-RIGHT-FLYING",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/MARIOFLY-WALKING-RIGHT-FLYING.gif"
+    },
+    {
       "name": "MEGAMANN-WALKING-LEFT",
       "type": "gif",
       "gif": "https://biboking-forever.github.io/Sprites/MEGAMANN-WALKING-LEFT.gif"
@@ -185,6 +195,16 @@
       "name": "SABIN-WALKING-RIGHT",
       "type": "gif",
       "gif": "https://biboking-forever.github.io/Sprites/SABIN-WALKING-RIGHT.gif"
+    },
+    {
+      "name": "TAILS-WALKING-LEFT-FLYING",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/TAILS-WALKING-LEFT-FLYING.gif"
+    },
+    {
+      "name": "TAILS-WALKING-RIGHT-FLYING",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/TAILS-WALKING-RIGHT-FLYING.gif"
     },
     {
       "name": "UNSQUADPAL-WALKING-LEFT-FLYING",
