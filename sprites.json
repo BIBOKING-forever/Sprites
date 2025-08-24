@@ -1,8 +1,8 @@
 {
-  "generated": "2025-08-24T14:37:50.322Z",
+  "generated": "2025-08-24T14:57:08.093Z",
   "repository": "biboking-forever/Sprites",
   "baseUrl": "https://biboking-forever.github.io/Sprites",
-  "totalSprites": 50,
+  "totalSprites": 56,
   "sprites": [
     {
       "name": "ALTAIR-WALKING-LEFT",
@@ -95,6 +95,26 @@
       "name": "CRONO-WALKING-RIGHT",
       "type": "gif",
       "gif": "https://biboking-forever.github.io/Sprites/CRONO-WALKING-RIGHT.gif"
+    },
+    {
+      "name": "GHOST GREEN MONSTERS-WALKING-LEFT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/GHOST GREEN Monsters-WALKING-LEFT.gif"
+    },
+    {
+      "name": "GHOST GREEN MONSTERS-WALKING-RIGHT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/GHOST GREEN Monsters-WALKING-RIGHT.gif"
+    },
+    {
+      "name": "GREENJELLY-WALKING-LEFT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/GREENJELLY-WALKING-LEFT.gif"
+    },
+    {
+      "name": "GREENJELLY-WALKING-RIGHT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/GREENJELLY-WALKING-RIGHT.gif"
     },
     {
       "name": "GUNDAM-WALKING-LEFT-FLYING",
@@ -215,6 +235,16 @@
       "name": "SABIN-WALKING-RIGHT",
       "type": "gif",
       "gif": "https://biboking-forever.github.io/Sprites/SABIN-WALKING-RIGHT.gif"
+    },
+    {
+      "name": "SONIC-WALKING-LEFT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/SONIC-WALKING-LEFT.gif"
+    },
+    {
+      "name": "SONIC-WALKING-RIGHT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/SONIC-WALKING-RIGHT.gif"
     },
     {
       "name": "TAILS-WALKING-LEFT-FLYING",
