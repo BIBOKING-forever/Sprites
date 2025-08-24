@@ -1,8 +1,8 @@
 {
-  "generated": "2025-08-24T14:57:08.093Z",
+  "generated": "2025-08-24T17:48:29.841Z",
   "repository": "biboking-forever/Sprites",
   "baseUrl": "https://biboking-forever.github.io/Sprites",
-  "totalSprites": 56,
+  "totalSprites": 68,
   "sprites": [
     {
       "name": "ALTAIR-WALKING-LEFT",
@@ -13,6 +13,16 @@
       "name": "ALTAIR-WALKING-RIGHT",
       "type": "gif",
       "gif": "https://biboking-forever.github.io/Sprites/altair-WALKING-RIGHT.gif"
+    },
+    {
+      "name": "ARCADE - JOJO'S BIZARRE ADVENTURE - BOSSES - DEATH 13-WALKING-LEFT-FLYING-LEFT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/Arcade - JoJo's Bizarre Adventure - Bosses - Death 13-WALKING-LEFT-FLYING-LEFT.gif"
+    },
+    {
+      "name": "ARCADE - JOJO'S BIZARRE ADVENTURE - BOSSES - DEATH 13-WALKING-RIGHT-FLYING-RIGHT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/Arcade - JoJo's Bizarre Adventure - Bosses - Death 13-WALKING-RIGHT-FLYING-RIGHT.gif"
     },
     {
       "name": "BABY-WALKING-LEFT",
@@ -76,6 +86,26 @@
       "gif": "https://biboking-forever.github.io/Sprites/chasepacman-WALKING-RIGHT.gif"
     },
     {
+      "name": "CONTRA-WALKING-LEFT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/CONTRA-WALKING-LEFT.gif"
+    },
+    {
+      "name": "CONTRA-WALKING-RIGHT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/CONTRA-WALKING-RIGHT.gif"
+    },
+    {
+      "name": "CONTRAENEMY1-WALKING-LEFT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/CONTRAENEMY1-WALKING-LEFT.gif"
+    },
+    {
+      "name": "CONTRAENEMY1-WALKING-RIGHT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/CONTRAENEMY1-WALKING-RIGHT.gif"
+    },
+    {
       "name": "CRONO",
       "type": "gif",
       "gif": "https://biboking-forever.github.io/Sprites/crono.gif"
@@ -95,6 +125,16 @@
       "name": "CRONO-WALKING-RIGHT",
       "type": "gif",
       "gif": "https://biboking-forever.github.io/Sprites/CRONO-WALKING-RIGHT.gif"
+    },
+    {
+      "name": "DIO-WALKING-LEFT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/DIO-WALKING-LEFT.gif"
+    },
+    {
+      "name": "DIO-WALKING-RIGHT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/DIO-WALKING-RIGHT.gif"
     },
     {
       "name": "GHOST GREEN MONSTERS-WALKING-LEFT",
@@ -135,6 +175,16 @@
       "name": "HAGGAR-WALKING-RIGHT",
       "type": "gif",
       "gif": "https://biboking-forever.github.io/Sprites/HAGGAR-WALKING-RIGHT.gif"
+    },
+    {
+      "name": "HOMESTAR-WALKING-LEFT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/homestar-WALKING-LEFT.gif"
+    },
+    {
+      "name": "HOMESTAR-WALKING-RIGHT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/homestar-WALKING-RIGHT.gif"
     },
     {
       "name": "LINUSSHEETSIDE-WALKING-LEFT",
@@ -265,6 +315,16 @@
       "name": "UNSQUADPAL-WALKING-RIGHT-FLYING",
       "type": "gif",
       "gif": "https://biboking-forever.github.io/Sprites/unsquadpal-WALKING-RIGHT-FLYING.gif"
+    },
+    {
+      "name": "VENOM-WALKING-LEFT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/VENOM-WALKING-LEFT.gif"
+    },
+    {
+      "name": "VENOM-WALKING-RIGHT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/VENOM-WALKING-RIGHT.gif"
     },
     {
       "name": "WILBUR-WALKING-LEFT",
