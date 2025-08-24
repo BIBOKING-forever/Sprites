@@ -1,8 +1,8 @@
 {
-  "generated": "2025-08-24T03:58:55.019Z",
+  "generated": "2025-08-24T14:37:50.322Z",
   "repository": "biboking-forever/Sprites",
   "baseUrl": "https://biboking-forever.github.io/Sprites",
-  "totalSprites": 48,
+  "totalSprites": 50,
   "sprites": [
     {
       "name": "ALTAIR-WALKING-LEFT",
@@ -13,6 +13,16 @@
       "name": "ALTAIR-WALKING-RIGHT",
       "type": "gif",
       "gif": "https://biboking-forever.github.io/Sprites/altair-WALKING-RIGHT.gif"
+    },
+    {
+      "name": "BABY-WALKING-LEFT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/baby-WALKING-LEFT.gif"
+    },
+    {
+      "name": "BABY-WALKING-RIGHT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/baby-WALKING-RIGHT.gif"
     },
     {
       "name": "BULLET",
