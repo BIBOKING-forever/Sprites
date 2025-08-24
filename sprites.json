@@ -1,8 +1,8 @@
 {
-  "generated": "2025-08-24T17:48:29.841Z",
+  "generated": "2025-08-24T22:43:25.581Z",
   "repository": "biboking-forever/Sprites",
   "baseUrl": "https://biboking-forever.github.io/Sprites",
-  "totalSprites": 68,
+  "totalSprites": 70,
   "sprites": [
     {
       "name": "ALTAIR-WALKING-LEFT",
@@ -185,6 +185,16 @@
       "name": "HOMESTAR-WALKING-RIGHT",
       "type": "gif",
       "gif": "https://biboking-forever.github.io/Sprites/homestar-WALKING-RIGHT.gif"
+    },
+    {
+      "name": "HULK1-WALKING-LEFT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/hulk1-WALKING-LEFT.gif"
+    },
+    {
+      "name": "HULK1-WALKING-RIGHT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/hulk1-WALKING-RIGHT.gif"
     },
     {
       "name": "LINUSSHEETSIDE-WALKING-LEFT",
