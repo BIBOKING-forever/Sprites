@@ -1,5 +1,5 @@
 {
-  "generated": "2025-08-26T16:06:51.963Z",
+  "generated": "2025-08-26T16:44:00.263Z",
   "repository": "biboking-forever/Sprites",
   "baseUrl": "https://biboking-forever.github.io/Sprites",
   "totalSprites": 72,
@@ -137,11 +137,6 @@
       "gif": "https://biboking-forever.github.io/Sprites/DIO-WALKING-RIGHT.gif"
     },
     {
-      "name": "GENMORDOTESTGI-WALKING-LEFTF",
-      "type": "gif",
-      "gif": "https://biboking-forever.github.io/Sprites/genmordotestgi-WALKING-LEFTf.gif"
-    },
-    {
       "name": "GENMORDOTESTGI-WALKING-RIGHT",
       "type": "gif",
       "gif": "https://biboking-forever.github.io/Sprites/genmordotestgi-WALKING-RIGHT.gif"
@@ -245,6 +240,11 @@
       "name": "MEGAMANN-WALKING-RIGHT",
       "type": "gif",
       "gif": "https://biboking-forever.github.io/Sprites/MEGAMANN-WALKING-RIGHT.gif"
+    },
+    {
+      "name": "METALSLUG1-WALKING-LEFTF",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/METALSLUG1-WALKING-LEFTf.gif"
     },
     {
       "name": "PERCHE-WALKING-LEFT",
