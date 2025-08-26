@@ -1,8 +1,8 @@
 {
-  "generated": "2025-08-24T22:43:25.581Z",
+  "generated": "2025-08-26T16:06:51.963Z",
   "repository": "biboking-forever/Sprites",
   "baseUrl": "https://biboking-forever.github.io/Sprites",
-  "totalSprites": 70,
+  "totalSprites": 72,
   "sprites": [
     {
       "name": "ALTAIR-WALKING-LEFT",
@@ -135,6 +135,16 @@
       "name": "DIO-WALKING-RIGHT",
       "type": "gif",
       "gif": "https://biboking-forever.github.io/Sprites/DIO-WALKING-RIGHT.gif"
+    },
+    {
+      "name": "GENMORDOTESTGI-WALKING-LEFTF",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/genmordotestgi-WALKING-LEFTf.gif"
+    },
+    {
+      "name": "GENMORDOTESTGI-WALKING-RIGHT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/genmordotestgi-WALKING-RIGHT.gif"
     },
     {
       "name": "GHOST GREEN MONSTERS-WALKING-LEFT",
