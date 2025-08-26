@@ -1,5 +1,5 @@
 {
-  "generated": "2025-08-26T16:44:00.263Z",
+  "generated": "2025-08-26T16:44:46.143Z",
   "repository": "biboking-forever/Sprites",
   "baseUrl": "https://biboking-forever.github.io/Sprites",
   "totalSprites": 72,
@@ -242,9 +242,9 @@
       "gif": "https://biboking-forever.github.io/Sprites/MEGAMANN-WALKING-RIGHT.gif"
     },
     {
-      "name": "METALSLUG1-WALKING-LEFTF",
+      "name": "METALSLUG1-WALKING-LEFT",
       "type": "gif",
-      "gif": "https://biboking-forever.github.io/Sprites/METALSLUG1-WALKING-LEFTf.gif"
+      "gif": "https://biboking-forever.github.io/Sprites/METALSLUG1-WALKING-LEFT.gif"
     },
     {
       "name": "PERCHE-WALKING-LEFT",
