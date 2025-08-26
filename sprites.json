@@ -1,8 +1,8 @@
 {
-  "generated": "2025-08-26T19:04:42.064Z",
+  "generated": "2025-08-26T19:23:03.015Z",
   "repository": "biboking-forever/Sprites",
   "baseUrl": "https://biboking-forever.github.io/Sprites",
-  "totalSprites": 72,
+  "totalSprites": 74,
   "sprites": [
     {
       "name": "ALTAIR-WALKING-LEFT",
@@ -245,6 +245,16 @@
       "name": "METAL-LOCOMOTIVE-TANK-WALKING-RIGHT",
       "type": "gif",
       "gif": "https://biboking-forever.github.io/Sprites/METAL-LOCOMOTIVE-TANK-WALKING-RIGHT.gif"
+    },
+    {
+      "name": "METAL-VEHICLE-WALKING-LEFT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/METAL-VEHICLE-WALKING-LEFT.gif"
+    },
+    {
+      "name": "METAL-VEHICLE-WALKING-RIGHT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/METAL-VEHICLE-WALKING-RIGHT.gif"
     },
     {
       "name": "PERCHE-WALKING-LEFT",
