@@ -1,5 +1,5 @@
 {
-  "generated": "2025-08-26T18:50:36.306Z",
+  "generated": "2025-08-26T18:57:43.515Z",
   "repository": "biboking-forever/Sprites",
   "baseUrl": "https://biboking-forever.github.io/Sprites",
   "totalSprites": 72,
@@ -217,6 +217,11 @@
       "gif": "https://biboking-forever.github.io/Sprites/LINUSSUIT-WALKING-RIGHT.gif"
     },
     {
+      "name": "LOCOMOTIVE-TANK-WALKING-LEFT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/LOCOMOTIVE-TANK-WALKING-LEFT.gif"
+    },
+    {
       "name": "MARIOFLY-WALKING-LEFT-FLYING",
       "type": "gif",
       "gif": "https://biboking-forever.github.io/Sprites/MARIOFLY-WALKING-LEFT-FLYING.gif"
@@ -235,11 +240,6 @@
       "name": "MEGAMANN-WALKING-RIGHT",
       "type": "gif",
       "gif": "https://biboking-forever.github.io/Sprites/MEGAMANN-WALKING-RIGHT.gif"
-    },
-    {
-      "name": "METALSLUG1-WALKING-LEFT",
-      "type": "gif",
-      "gif": "https://biboking-forever.github.io/Sprites/METALSLUG1-WALKING-LEFT.gif"
     },
     {
       "name": "METALSLUG1-WALKING-RIGHT",
