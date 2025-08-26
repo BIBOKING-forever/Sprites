@@ -1,8 +1,8 @@
 {
-  "generated": "2025-08-26T19:48:30.676Z",
+  "generated": "2025-08-26T20:00:59.106Z",
   "repository": "biboking-forever/Sprites",
   "baseUrl": "https://biboking-forever.github.io/Sprites",
-  "totalSprites": 76,
+  "totalSprites": 80,
   "sprites": [
     {
       "name": "ALTAIR-WALKING-LEFT",
@@ -235,6 +235,26 @@
       "name": "MEGAMANN-WALKING-RIGHT",
       "type": "gif",
       "gif": "https://biboking-forever.github.io/Sprites/MEGAMANN-WALKING-RIGHT.gif"
+    },
+    {
+      "name": "METAL-ENEMY-GRUNT-RUNNING-LEFT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/METAL-ENEMY-GRUNT-RUNNING-LEFT.gif"
+    },
+    {
+      "name": "METAL-ENEMY-GRUNT-RUNNING-RIGHT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/METAL-ENEMY-GRUNT-RUNNING-RIGHT.gif"
+    },
+    {
+      "name": "METAL-ENEMY-GRUNT-WALKING-LEFT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/METAL-ENEMY-GRUNT-WALKING-LEFT.gif"
+    },
+    {
+      "name": "METAL-ENEMY-GRUNT-WALKING-RIGHT",
+      "type": "gif",
+      "gif": "https://biboking-forever.github.io/Sprites/METAL-ENEMY-GRUNT-WALKING-RIGHT.gif"
     },
     {
       "name": "METAL-LOCOMOTIVE-TANK-WALKING-LEFT",
