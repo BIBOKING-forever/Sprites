@@ -4,12 +4,9 @@ on:
   push:
     branches: [ main ]
     paths:
-      - '*.gif'
-      - '*.png'
-      - '*.json'
+      - 'sprites/**'
   workflow_dispatch:
 
-# Add explicit permissions
 permissions:
   contents: write
   actions: read
@@ -17,105 +14,139 @@ permissions:
 jobs:
   update-sprites:
     runs-on: ubuntu-latest
-    
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-      
-    - name: Generate sprites.json
+
+    - name: Generate sprites.json and manifest.json
       run: |
         node << 'EOF'
         const fs = require('fs');
         const path = require('path');
-        
-        const baseUrl = 'https://biboking-forever.github.io/Sprites';
-        
-        console.log('🔍 Scanning for sprite files...');
-        
-        const files = fs.readdirSync('.');
-        
-        const gifFiles = files.filter(file => file.endsWith('.gif'));
-        const pngFiles = files.filter(file => file.endsWith('.png'));
-        const jsonFiles = files.filter(file => 
-          file.endsWith('.json') && 
-          !file.startsWith('sprites') && 
-          !file.startsWith('package')
-        );
-        
-        console.log('Found GIFs:', gifFiles);
-        console.log('Found PNGs:', pngFiles);
-        console.log('Found JSON files:', jsonFiles);
-        
-        const sprites = [];
-        
-        // Add GIF sprites
-        gifFiles.forEach(file => {
-          const name = path.basename(file, '.gif').toUpperCase();
-          sprites.push({
-            name: name,
-            type: 'gif',
-            gif: `${baseUrl}/${file}`
-          });
-        });
-        
-        // Add PNG+JSON sprite sheets (Aseprite format)
-        jsonFiles.forEach(jsonFile => {
-          const baseName = path.basename(jsonFile, '.json');
-          
-          const pngCandidates = [
-            `${baseName}.png`,
-            `${baseName.toUpperCase()}.png`,
-            `${baseName.toLowerCase()}.png`
-          ];
-          
-          const pngFile = pngCandidates.find(candidate => 
-            pngFiles.includes(candidate)
-          );
-          
-          if (pngFile) {
-            sprites.push({
-              name: baseName.toUpperCase(),
-              type: 'spritesheet',
-              json: `${baseUrl}/${jsonFile}`,
-              png: `${baseUrl}/${pngFile}`
-            });
-          } else {
-            console.log(`⚠️ No PNG found for ${jsonFile}`);
+
+        const OWNER = 'BIBOKING-forever';
+        const REPO = 'Sprites';
+        const TAG = 'v1.0.0';
+        const ROOT = 'sprites';
+
+        const cdnBase = `https://cdn.jsdelivr.net/gh/${OWNER}/${REPO}@${TAG}`;
+        const latestBase = `https://cdn.jsdelivr.net/gh/${OWNER}/${REPO}@main`;
+        const fallbackBase = `https://cdn.statically.io/gh/${OWNER}/${REPO}/main`;
+        const rawBase = `https://raw.githubusercontent.com/${OWNER}/${REPO}/main`;
+
+        function walk(dir) {
+          const out = [];
+          for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
+            const p = path.join(dir, e.name);
+            if (e.isDirectory()) out.push(...walk(p));
+            else out.push(p);
           }
-        });
-        
-        const spritesData = {
-          generated: new Date().toISOString(),
-          repository: 'biboking-forever/Sprites',
-          baseUrl: baseUrl,
-          totalSprites: sprites.length,
-          sprites: sprites.sort((a, b) => a.name.localeCompare(b.name))
+          return out;
+        }
+
+        const ACTION_RE = /-(walking-left-flying-left|walking-right-flying-right|walking-left-flying|walking-right-flying|walking-left|walking-right|running-left|running-right)$/;
+
+        const files = walk(ROOT).filter(f => /\.(gif|png)$/i.test(f));
+        const sheetJsons = walk(ROOT).filter(f => f.endsWith('.json') && !f.endsWith('manifest.json'));
+
+        const manifestSprites = [];
+        const legacySprites = [];
+
+        for (const file of files.sort()) {
+          const rel = file.replace(/\\/g, '/');
+          const base = path.basename(file, path.extname(file));
+          const ext = path.extname(file).toLowerCase();
+          const character = path.basename(path.dirname(file));
+
+          let action = 'static';
+          let logical = base;
+          const m = base.match(ACTION_RE);
+          if (m) {
+            action = m[1];
+          }
+
+          manifestSprites.push({
+            name: base,
+            character,
+            action,
+            path: rel,
+            url_pinned: `${cdnBase}/${rel}`,
+            url_latest: `${latestBase}/${rel}`,
+            url_fallback: `${fallbackBase}/${rel}`,
+            url_last_resort: `${rawBase}/${rel}`,
+          });
+
+          if (ext === '.gif') {
+            legacySprites.push({
+              name: base.toUpperCase(),
+              type: 'gif',
+              gif: `${cdnBase}/${rel}`,
+            });
+          }
+        }
+
+        // Sprite sheets (PNG + JSON sidecar pairs).
+        for (const j of sheetJsons) {
+          const dir = path.dirname(j);
+          const stem = path.basename(j, '.json');
+          const png = path.join(dir, `${stem}.png`);
+          if (fs.existsSync(png)) {
+            legacySprites.push({
+              name: stem.toUpperCase(),
+              type: 'spritesheet',
+              json: `${cdnBase}/${j.replace(/\\/g, '/')}`,
+              png: `${cdnBase}/${png.replace(/\\/g, '/')}`,
+            });
+          }
+        }
+
+        legacySprites.sort((a, b) => a.name.localeCompare(b.name));
+        manifestSprites.sort((a, b) => a.path.localeCompare(b.path));
+
+        const generated = new Date().toISOString();
+
+        const manifest = {
+          version: TAG,
+          repository: `${OWNER}/${REPO}`,
+          generated,
+          primary_cdn: 'jsdelivr',
+          fallback_cdn: 'statically',
+          last_resort: 'raw.githubusercontent.com',
+          url_templates: {
+            url_pinned: `${cdnBase}/<path>`,
+            url_latest: `${latestBase}/<path>`,
+            url_fallback: `${fallbackBase}/<path>`,
+            url_last_resort: `${rawBase}/<path>`,
+          },
+          total_sprites: manifestSprites.length,
+          sprites: manifestSprites,
         };
-        
-        fs.writeFileSync('sprites.json', JSON.stringify(spritesData, null, 2));
-        
-        console.log('✅ Generated sprites.json with', sprites.length, 'sprites');
-        console.log('Sprites found:', sprites.map(s => `${s.name} (${s.type})`).join(', '));
+
+        const legacy = {
+          generated,
+          repository: `${OWNER}/${REPO}`,
+          baseUrl: cdnBase,
+          totalSprites: legacySprites.length,
+          sprites: legacySprites,
+        };
+
+        fs.writeFileSync('sprites/manifest.json', JSON.stringify(manifest, null, 2) + '\n');
+        fs.writeFileSync('sprites.json', JSON.stringify(legacy, null, 2) + '\n');
+
+        console.log(`Manifest: ${manifestSprites.length} entries, legacy: ${legacySprites.length} entries`);
         EOF
-        
-    - name: Show generated sprites.json
-      run: |
-        echo "📄 Generated sprites.json:"
-        cat sprites.json
-        
+
     - name: Commit and push if changed
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action Bot"
-        
-        git add sprites.json
-        
-        if git diff --staged --exit-code sprites.json > /dev/null; then
-          echo "ℹ️ No changes to sprites.json"
+        git add sprites.json sprites/manifest.json
+        if git diff --staged --exit-code > /dev/null; then
+          echo "No changes."
         else
-          echo "📝 Committing updated sprites.json"
-          git commit -m "🤖 Auto-update sprites.json - $(date '+%Y-%m-%d %H:%M')"
+          git commit -m "chore: auto-regenerate manifest"
           git push
         fi
