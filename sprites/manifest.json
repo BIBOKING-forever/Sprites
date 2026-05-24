@@ -1,7 +1,7 @@
 {
   "version": "v1.0.0",
   "repository": "BIBOKING-forever/Sprites",
-  "generated": "2026-05-24T18:38:37Z",
+  "generated": "2026-05-24T18:43:32.792Z",
   "primary_cdn": "jsdelivr",
   "fallback_cdn": "statically",
   "last_resort": "raw.githubusercontent.com",
@@ -11,6 +11,7 @@
     "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/<path>",
     "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/<path>"
   },
+  "total_sprites": 80,
   "sprites": [
     {
       "name": "altair-walking-left",
@@ -60,9 +61,7 @@
       "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/bullet/bullet-walking-left-flying.gif",
       "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/bullet/bullet-walking-left-flying.gif",
       "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/bullet/bullet-walking-left-flying.gif",
-      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/bullet/bullet-walking-left-flying.gif",
-      "width": 928,
-      "height": 156
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/bullet/bullet-walking-left-flying.gif"
     },
     {
       "name": "bullet-walking-right-flying",
@@ -72,9 +71,7 @@
       "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/bullet/bullet-walking-right-flying.gif",
       "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/bullet/bullet-walking-right-flying.gif",
       "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/bullet/bullet-walking-right-flying.gif",
-      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/bullet/bullet-walking-right-flying.gif",
-      "width": 928,
-      "height": 156
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/bullet/bullet-walking-right-flying.gif"
     },
     {
       "name": "bullet",
@@ -84,9 +81,7 @@
       "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/bullet/bullet.png",
       "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/bullet/bullet.png",
       "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/bullet/bullet.png",
-      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/bullet/bullet.png",
-      "width": 928,
-      "height": 156
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/bullet/bullet.png"
     },
     {
       "name": "bullet10",
@@ -206,9 +201,7 @@
       "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/crono/crono-walking-left.gif",
       "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/crono/crono-walking-left.gif",
       "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/crono/crono-walking-left.gif",
-      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/crono/crono-walking-left.gif",
-      "width": 552,
-      "height": 80
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/crono/crono-walking-left.gif"
     },
     {
       "name": "crono-walking-right",
@@ -218,9 +211,7 @@
       "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/crono/crono-walking-right.gif",
       "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/crono/crono-walking-right.gif",
       "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/crono/crono-walking-right.gif",
-      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/crono/crono-walking-right.gif",
-      "width": 552,
-      "height": 80
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/crono/crono-walking-right.gif"
     },
     {
       "name": "crono",
@@ -230,9 +221,7 @@
       "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/crono/crono.gif",
       "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/crono/crono.gif",
       "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/crono/crono.gif",
-      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/crono/crono.gif",
-      "width": 552,
-      "height": 80
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/crono/crono.gif"
     },
     {
       "name": "crono",
@@ -242,9 +231,7 @@
       "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/crono/crono.png",
       "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/crono/crono.png",
       "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/crono/crono.png",
-      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/crono/crono.png",
-      "width": 552,
-      "height": 80
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/crono/crono.png"
     },
     {
       "name": "death-13-walking-left-flying-left",
@@ -826,6 +813,5 @@
       "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/wolverine/wolverine-walking-right.gif",
       "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/wolverine/wolverine-walking-right.gif"
     }
-  ],
-  "total_sprites": 80
+  ]
 }
