@@ -1,0 +1,831 @@
+{
+  "version": "v1.0.0",
+  "repository": "BIBOKING-forever/Sprites",
+  "generated": "2026-05-24T18:38:37Z",
+  "primary_cdn": "jsdelivr",
+  "fallback_cdn": "statically",
+  "last_resort": "raw.githubusercontent.com",
+  "url_templates": {
+    "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/<path>",
+    "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/<path>",
+    "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/<path>",
+    "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/<path>"
+  },
+  "sprites": [
+    {
+      "name": "altair-walking-left",
+      "character": "altair",
+      "action": "walking-left",
+      "path": "sprites/altair/altair-walking-left.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/altair/altair-walking-left.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/altair/altair-walking-left.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/altair/altair-walking-left.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/altair/altair-walking-left.gif"
+    },
+    {
+      "name": "altair-walking-right",
+      "character": "altair",
+      "action": "walking-right",
+      "path": "sprites/altair/altair-walking-right.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/altair/altair-walking-right.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/altair/altair-walking-right.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/altair/altair-walking-right.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/altair/altair-walking-right.gif"
+    },
+    {
+      "name": "baby-walking-left",
+      "character": "baby",
+      "action": "walking-left",
+      "path": "sprites/baby/baby-walking-left.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/baby/baby-walking-left.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/baby/baby-walking-left.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/baby/baby-walking-left.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/baby/baby-walking-left.gif"
+    },
+    {
+      "name": "baby-walking-right",
+      "character": "baby",
+      "action": "walking-right",
+      "path": "sprites/baby/baby-walking-right.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/baby/baby-walking-right.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/baby/baby-walking-right.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/baby/baby-walking-right.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/baby/baby-walking-right.gif"
+    },
+    {
+      "name": "bullet-walking-left-flying",
+      "character": "bullet",
+      "action": "walking-left-flying",
+      "path": "sprites/bullet/bullet-walking-left-flying.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/bullet/bullet-walking-left-flying.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/bullet/bullet-walking-left-flying.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/bullet/bullet-walking-left-flying.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/bullet/bullet-walking-left-flying.gif",
+      "width": 928,
+      "height": 156
+    },
+    {
+      "name": "bullet-walking-right-flying",
+      "character": "bullet",
+      "action": "walking-right-flying",
+      "path": "sprites/bullet/bullet-walking-right-flying.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/bullet/bullet-walking-right-flying.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/bullet/bullet-walking-right-flying.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/bullet/bullet-walking-right-flying.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/bullet/bullet-walking-right-flying.gif",
+      "width": 928,
+      "height": 156
+    },
+    {
+      "name": "bullet",
+      "character": "bullet",
+      "action": "static",
+      "path": "sprites/bullet/bullet.png",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/bullet/bullet.png",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/bullet/bullet.png",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/bullet/bullet.png",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/bullet/bullet.png",
+      "width": 928,
+      "height": 156
+    },
+    {
+      "name": "bullet10",
+      "character": "bullet10",
+      "action": "static",
+      "path": "sprites/bullet10/bullet10.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/bullet10/bullet10.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/bullet10/bullet10.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/bullet10/bullet10.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/bullet10/bullet10.gif"
+    },
+    {
+      "name": "butthead-walking-left",
+      "character": "butthead",
+      "action": "walking-left",
+      "path": "sprites/butthead/butthead-walking-left.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/butthead/butthead-walking-left.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/butthead/butthead-walking-left.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/butthead/butthead-walking-left.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/butthead/butthead-walking-left.gif"
+    },
+    {
+      "name": "butthead-walking-right",
+      "character": "butthead",
+      "action": "walking-right",
+      "path": "sprites/butthead/butthead-walking-right.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/butthead/butthead-walking-right.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/butthead/butthead-walking-right.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/butthead/butthead-walking-right.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/butthead/butthead-walking-right.gif"
+    },
+    {
+      "name": "chase-ghost-walking-left",
+      "character": "chase-ghost",
+      "action": "walking-left",
+      "path": "sprites/chase-ghost/chase-ghost-walking-left.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/chase-ghost/chase-ghost-walking-left.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/chase-ghost/chase-ghost-walking-left.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/chase-ghost/chase-ghost-walking-left.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/chase-ghost/chase-ghost-walking-left.gif"
+    },
+    {
+      "name": "chase-ghost-walking-right",
+      "character": "chase-ghost",
+      "action": "walking-right",
+      "path": "sprites/chase-ghost/chase-ghost-walking-right.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/chase-ghost/chase-ghost-walking-right.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/chase-ghost/chase-ghost-walking-right.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/chase-ghost/chase-ghost-walking-right.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/chase-ghost/chase-ghost-walking-right.gif"
+    },
+    {
+      "name": "chase-pacman-walking-left",
+      "character": "chase-pacman",
+      "action": "walking-left",
+      "path": "sprites/chase-pacman/chase-pacman-walking-left.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/chase-pacman/chase-pacman-walking-left.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/chase-pacman/chase-pacman-walking-left.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/chase-pacman/chase-pacman-walking-left.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/chase-pacman/chase-pacman-walking-left.gif"
+    },
+    {
+      "name": "chase-pacman-walking-right",
+      "character": "chase-pacman",
+      "action": "walking-right",
+      "path": "sprites/chase-pacman/chase-pacman-walking-right.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/chase-pacman/chase-pacman-walking-right.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/chase-pacman/chase-pacman-walking-right.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/chase-pacman/chase-pacman-walking-right.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/chase-pacman/chase-pacman-walking-right.gif"
+    },
+    {
+      "name": "contra-enemy-walking-left",
+      "character": "contra-enemy",
+      "action": "walking-left",
+      "path": "sprites/contra-enemy/contra-enemy-walking-left.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/contra-enemy/contra-enemy-walking-left.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/contra-enemy/contra-enemy-walking-left.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/contra-enemy/contra-enemy-walking-left.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/contra-enemy/contra-enemy-walking-left.gif"
+    },
+    {
+      "name": "contra-enemy-walking-right",
+      "character": "contra-enemy",
+      "action": "walking-right",
+      "path": "sprites/contra-enemy/contra-enemy-walking-right.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/contra-enemy/contra-enemy-walking-right.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/contra-enemy/contra-enemy-walking-right.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/contra-enemy/contra-enemy-walking-right.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/contra-enemy/contra-enemy-walking-right.gif"
+    },
+    {
+      "name": "contra-walking-left",
+      "character": "contra",
+      "action": "walking-left",
+      "path": "sprites/contra/contra-walking-left.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/contra/contra-walking-left.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/contra/contra-walking-left.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/contra/contra-walking-left.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/contra/contra-walking-left.gif"
+    },
+    {
+      "name": "contra-walking-right",
+      "character": "contra",
+      "action": "walking-right",
+      "path": "sprites/contra/contra-walking-right.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/contra/contra-walking-right.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/contra/contra-walking-right.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/contra/contra-walking-right.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/contra/contra-walking-right.gif"
+    },
+    {
+      "name": "crono-walking-left",
+      "character": "crono",
+      "action": "walking-left",
+      "path": "sprites/crono/crono-walking-left.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/crono/crono-walking-left.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/crono/crono-walking-left.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/crono/crono-walking-left.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/crono/crono-walking-left.gif",
+      "width": 552,
+      "height": 80
+    },
+    {
+      "name": "crono-walking-right",
+      "character": "crono",
+      "action": "walking-right",
+      "path": "sprites/crono/crono-walking-right.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/crono/crono-walking-right.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/crono/crono-walking-right.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/crono/crono-walking-right.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/crono/crono-walking-right.gif",
+      "width": 552,
+      "height": 80
+    },
+    {
+      "name": "crono",
+      "character": "crono",
+      "action": "static",
+      "path": "sprites/crono/crono.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/crono/crono.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/crono/crono.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/crono/crono.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/crono/crono.gif",
+      "width": 552,
+      "height": 80
+    },
+    {
+      "name": "crono",
+      "character": "crono",
+      "action": "static",
+      "path": "sprites/crono/crono.png",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/crono/crono.png",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/crono/crono.png",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/crono/crono.png",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/crono/crono.png",
+      "width": 552,
+      "height": 80
+    },
+    {
+      "name": "death-13-walking-left-flying-left",
+      "character": "death-13",
+      "action": "walking-left-flying-left",
+      "path": "sprites/death-13/death-13-walking-left-flying-left.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/death-13/death-13-walking-left-flying-left.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/death-13/death-13-walking-left-flying-left.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/death-13/death-13-walking-left-flying-left.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/death-13/death-13-walking-left-flying-left.gif"
+    },
+    {
+      "name": "death-13-walking-right-flying-right",
+      "character": "death-13",
+      "action": "walking-right-flying-right",
+      "path": "sprites/death-13/death-13-walking-right-flying-right.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/death-13/death-13-walking-right-flying-right.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/death-13/death-13-walking-right-flying-right.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/death-13/death-13-walking-right-flying-right.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/death-13/death-13-walking-right-flying-right.gif"
+    },
+    {
+      "name": "dio-walking-left",
+      "character": "dio",
+      "action": "walking-left",
+      "path": "sprites/dio/dio-walking-left.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/dio/dio-walking-left.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/dio/dio-walking-left.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/dio/dio-walking-left.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/dio/dio-walking-left.gif"
+    },
+    {
+      "name": "dio-walking-right",
+      "character": "dio",
+      "action": "walking-right",
+      "path": "sprites/dio/dio-walking-right.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/dio/dio-walking-right.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/dio/dio-walking-right.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/dio/dio-walking-right.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/dio/dio-walking-right.gif"
+    },
+    {
+      "name": "enemy-grunt-running-left",
+      "character": "enemy-grunt",
+      "action": "running-left",
+      "path": "sprites/enemy-grunt/enemy-grunt-running-left.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/enemy-grunt/enemy-grunt-running-left.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/enemy-grunt/enemy-grunt-running-left.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/enemy-grunt/enemy-grunt-running-left.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/enemy-grunt/enemy-grunt-running-left.gif"
+    },
+    {
+      "name": "enemy-grunt-running-right",
+      "character": "enemy-grunt",
+      "action": "running-right",
+      "path": "sprites/enemy-grunt/enemy-grunt-running-right.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/enemy-grunt/enemy-grunt-running-right.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/enemy-grunt/enemy-grunt-running-right.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/enemy-grunt/enemy-grunt-running-right.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/enemy-grunt/enemy-grunt-running-right.gif"
+    },
+    {
+      "name": "enemy-grunt-walking-left",
+      "character": "enemy-grunt",
+      "action": "walking-left",
+      "path": "sprites/enemy-grunt/enemy-grunt-walking-left.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/enemy-grunt/enemy-grunt-walking-left.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/enemy-grunt/enemy-grunt-walking-left.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/enemy-grunt/enemy-grunt-walking-left.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/enemy-grunt/enemy-grunt-walking-left.gif"
+    },
+    {
+      "name": "enemy-grunt-walking-right",
+      "character": "enemy-grunt",
+      "action": "walking-right",
+      "path": "sprites/enemy-grunt/enemy-grunt-walking-right.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/enemy-grunt/enemy-grunt-walking-right.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/enemy-grunt/enemy-grunt-walking-right.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/enemy-grunt/enemy-grunt-walking-right.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/enemy-grunt/enemy-grunt-walking-right.gif"
+    },
+    {
+      "name": "ghost-green-monster-walking-left",
+      "character": "ghost-green-monster",
+      "action": "walking-left",
+      "path": "sprites/ghost-green-monster/ghost-green-monster-walking-left.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/ghost-green-monster/ghost-green-monster-walking-left.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/ghost-green-monster/ghost-green-monster-walking-left.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/ghost-green-monster/ghost-green-monster-walking-left.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/ghost-green-monster/ghost-green-monster-walking-left.gif"
+    },
+    {
+      "name": "ghost-green-monster-walking-right",
+      "character": "ghost-green-monster",
+      "action": "walking-right",
+      "path": "sprites/ghost-green-monster/ghost-green-monster-walking-right.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/ghost-green-monster/ghost-green-monster-walking-right.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/ghost-green-monster/ghost-green-monster-walking-right.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/ghost-green-monster/ghost-green-monster-walking-right.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/ghost-green-monster/ghost-green-monster-walking-right.gif"
+    },
+    {
+      "name": "green-jelly-walking-left",
+      "character": "green-jelly",
+      "action": "walking-left",
+      "path": "sprites/green-jelly/green-jelly-walking-left.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/green-jelly/green-jelly-walking-left.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/green-jelly/green-jelly-walking-left.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/green-jelly/green-jelly-walking-left.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/green-jelly/green-jelly-walking-left.gif"
+    },
+    {
+      "name": "green-jelly-walking-right",
+      "character": "green-jelly",
+      "action": "walking-right",
+      "path": "sprites/green-jelly/green-jelly-walking-right.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/green-jelly/green-jelly-walking-right.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/green-jelly/green-jelly-walking-right.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/green-jelly/green-jelly-walking-right.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/green-jelly/green-jelly-walking-right.gif"
+    },
+    {
+      "name": "gundam-walking-left-flying",
+      "character": "gundam",
+      "action": "walking-left-flying",
+      "path": "sprites/gundam/gundam-walking-left-flying.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/gundam/gundam-walking-left-flying.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/gundam/gundam-walking-left-flying.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/gundam/gundam-walking-left-flying.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/gundam/gundam-walking-left-flying.gif"
+    },
+    {
+      "name": "gundam-walking-right-flying",
+      "character": "gundam",
+      "action": "walking-right-flying",
+      "path": "sprites/gundam/gundam-walking-right-flying.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/gundam/gundam-walking-right-flying.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/gundam/gundam-walking-right-flying.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/gundam/gundam-walking-right-flying.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/gundam/gundam-walking-right-flying.gif"
+    },
+    {
+      "name": "haggar-walking-left",
+      "character": "haggar",
+      "action": "walking-left",
+      "path": "sprites/haggar/haggar-walking-left.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/haggar/haggar-walking-left.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/haggar/haggar-walking-left.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/haggar/haggar-walking-left.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/haggar/haggar-walking-left.gif"
+    },
+    {
+      "name": "haggar-walking-right",
+      "character": "haggar",
+      "action": "walking-right",
+      "path": "sprites/haggar/haggar-walking-right.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/haggar/haggar-walking-right.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/haggar/haggar-walking-right.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/haggar/haggar-walking-right.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/haggar/haggar-walking-right.gif"
+    },
+    {
+      "name": "homestar-walking-left",
+      "character": "homestar",
+      "action": "walking-left",
+      "path": "sprites/homestar/homestar-walking-left.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/homestar/homestar-walking-left.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/homestar/homestar-walking-left.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/homestar/homestar-walking-left.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/homestar/homestar-walking-left.gif"
+    },
+    {
+      "name": "homestar-walking-right",
+      "character": "homestar",
+      "action": "walking-right",
+      "path": "sprites/homestar/homestar-walking-right.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/homestar/homestar-walking-right.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/homestar/homestar-walking-right.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/homestar/homestar-walking-right.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/homestar/homestar-walking-right.gif"
+    },
+    {
+      "name": "hulk-walking-left",
+      "character": "hulk",
+      "action": "walking-left",
+      "path": "sprites/hulk/hulk-walking-left.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/hulk/hulk-walking-left.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/hulk/hulk-walking-left.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/hulk/hulk-walking-left.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/hulk/hulk-walking-left.gif"
+    },
+    {
+      "name": "hulk-walking-right",
+      "character": "hulk",
+      "action": "walking-right",
+      "path": "sprites/hulk/hulk-walking-right.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/hulk/hulk-walking-right.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/hulk/hulk-walking-right.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/hulk/hulk-walking-right.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/hulk/hulk-walking-right.gif"
+    },
+    {
+      "name": "linus-sheet-walking-left",
+      "character": "linus-sheet",
+      "action": "walking-left",
+      "path": "sprites/linus-sheet/linus-sheet-walking-left.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/linus-sheet/linus-sheet-walking-left.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/linus-sheet/linus-sheet-walking-left.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/linus-sheet/linus-sheet-walking-left.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/linus-sheet/linus-sheet-walking-left.gif"
+    },
+    {
+      "name": "linus-sheet-walking-right",
+      "character": "linus-sheet",
+      "action": "walking-right",
+      "path": "sprites/linus-sheet/linus-sheet-walking-right.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/linus-sheet/linus-sheet-walking-right.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/linus-sheet/linus-sheet-walking-right.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/linus-sheet/linus-sheet-walking-right.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/linus-sheet/linus-sheet-walking-right.gif"
+    },
+    {
+      "name": "linus-suit-walking-left",
+      "character": "linus-suit",
+      "action": "walking-left",
+      "path": "sprites/linus-suit/linus-suit-walking-left.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/linus-suit/linus-suit-walking-left.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/linus-suit/linus-suit-walking-left.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/linus-suit/linus-suit-walking-left.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/linus-suit/linus-suit-walking-left.gif"
+    },
+    {
+      "name": "linus-suit-walking-right",
+      "character": "linus-suit",
+      "action": "walking-right",
+      "path": "sprites/linus-suit/linus-suit-walking-right.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/linus-suit/linus-suit-walking-right.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/linus-suit/linus-suit-walking-right.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/linus-suit/linus-suit-walking-right.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/linus-suit/linus-suit-walking-right.gif"
+    },
+    {
+      "name": "locomotive-tank-walking-left",
+      "character": "locomotive-tank",
+      "action": "walking-left",
+      "path": "sprites/locomotive-tank/locomotive-tank-walking-left.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/locomotive-tank/locomotive-tank-walking-left.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/locomotive-tank/locomotive-tank-walking-left.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/locomotive-tank/locomotive-tank-walking-left.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/locomotive-tank/locomotive-tank-walking-left.gif"
+    },
+    {
+      "name": "locomotive-tank-walking-right",
+      "character": "locomotive-tank",
+      "action": "walking-right",
+      "path": "sprites/locomotive-tank/locomotive-tank-walking-right.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/locomotive-tank/locomotive-tank-walking-right.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/locomotive-tank/locomotive-tank-walking-right.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/locomotive-tank/locomotive-tank-walking-right.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/locomotive-tank/locomotive-tank-walking-right.gif"
+    },
+    {
+      "name": "mario-fly-walking-left-flying",
+      "character": "mario-fly",
+      "action": "walking-left-flying",
+      "path": "sprites/mario-fly/mario-fly-walking-left-flying.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/mario-fly/mario-fly-walking-left-flying.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/mario-fly/mario-fly-walking-left-flying.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/mario-fly/mario-fly-walking-left-flying.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/mario-fly/mario-fly-walking-left-flying.gif"
+    },
+    {
+      "name": "mario-fly-walking-right-flying",
+      "character": "mario-fly",
+      "action": "walking-right-flying",
+      "path": "sprites/mario-fly/mario-fly-walking-right-flying.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/mario-fly/mario-fly-walking-right-flying.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/mario-fly/mario-fly-walking-right-flying.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/mario-fly/mario-fly-walking-right-flying.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/mario-fly/mario-fly-walking-right-flying.gif"
+    },
+    {
+      "name": "megaman-walking-left",
+      "character": "megaman",
+      "action": "walking-left",
+      "path": "sprites/megaman/megaman-walking-left.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/megaman/megaman-walking-left.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/megaman/megaman-walking-left.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/megaman/megaman-walking-left.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/megaman/megaman-walking-left.gif"
+    },
+    {
+      "name": "megaman-walking-right",
+      "character": "megaman",
+      "action": "walking-right",
+      "path": "sprites/megaman/megaman-walking-right.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/megaman/megaman-walking-right.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/megaman/megaman-walking-right.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/megaman/megaman-walking-right.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/megaman/megaman-walking-right.gif"
+    },
+    {
+      "name": "paper-mario-panic-walking-left",
+      "character": "paper-mario-panic",
+      "action": "walking-left",
+      "path": "sprites/paper-mario-panic/paper-mario-panic-walking-left.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/paper-mario-panic/paper-mario-panic-walking-left.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/paper-mario-panic/paper-mario-panic-walking-left.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/paper-mario-panic/paper-mario-panic-walking-left.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/paper-mario-panic/paper-mario-panic-walking-left.gif"
+    },
+    {
+      "name": "paper-mario-panic-walking-right",
+      "character": "paper-mario-panic",
+      "action": "walking-right",
+      "path": "sprites/paper-mario-panic/paper-mario-panic-walking-right.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/paper-mario-panic/paper-mario-panic-walking-right.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/paper-mario-panic/paper-mario-panic-walking-right.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/paper-mario-panic/paper-mario-panic-walking-right.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/paper-mario-panic/paper-mario-panic-walking-right.gif"
+    },
+    {
+      "name": "perche-walking-left",
+      "character": "perche",
+      "action": "walking-left",
+      "path": "sprites/perche/perche-walking-left.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/perche/perche-walking-left.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/perche/perche-walking-left.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/perche/perche-walking-left.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/perche/perche-walking-left.gif"
+    },
+    {
+      "name": "perche-walking-right",
+      "character": "perche",
+      "action": "walking-right",
+      "path": "sprites/perche/perche-walking-right.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/perche/perche-walking-right.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/perche/perche-walking-right.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/perche/perche-walking-right.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/perche/perche-walking-right.gif"
+    },
+    {
+      "name": "prinny-dance-walking-left",
+      "character": "prinny-dance",
+      "action": "walking-left",
+      "path": "sprites/prinny-dance/prinny-dance-walking-left.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/prinny-dance/prinny-dance-walking-left.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/prinny-dance/prinny-dance-walking-left.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/prinny-dance/prinny-dance-walking-left.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/prinny-dance/prinny-dance-walking-left.gif"
+    },
+    {
+      "name": "prinny-dance-walking-right",
+      "character": "prinny-dance",
+      "action": "walking-right",
+      "path": "sprites/prinny-dance/prinny-dance-walking-right.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/prinny-dance/prinny-dance-walking-right.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/prinny-dance/prinny-dance-walking-right.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/prinny-dance/prinny-dance-walking-right.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/prinny-dance/prinny-dance-walking-right.gif"
+    },
+    {
+      "name": "purple-guy-walking-left",
+      "character": "purple-guy",
+      "action": "walking-left",
+      "path": "sprites/purple-guy/purple-guy-walking-left.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/purple-guy/purple-guy-walking-left.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/purple-guy/purple-guy-walking-left.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/purple-guy/purple-guy-walking-left.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/purple-guy/purple-guy-walking-left.gif"
+    },
+    {
+      "name": "purple-guy-walking-right",
+      "character": "purple-guy",
+      "action": "walking-right",
+      "path": "sprites/purple-guy/purple-guy-walking-right.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/purple-guy/purple-guy-walking-right.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/purple-guy/purple-guy-walking-right.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/purple-guy/purple-guy-walking-right.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/purple-guy/purple-guy-walking-right.gif"
+    },
+    {
+      "name": "ramona-walking-left",
+      "character": "ramona",
+      "action": "walking-left",
+      "path": "sprites/ramona/ramona-walking-left.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/ramona/ramona-walking-left.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/ramona/ramona-walking-left.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/ramona/ramona-walking-left.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/ramona/ramona-walking-left.gif"
+    },
+    {
+      "name": "ramona-walking-right",
+      "character": "ramona",
+      "action": "walking-right",
+      "path": "sprites/ramona/ramona-walking-right.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/ramona/ramona-walking-right.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/ramona/ramona-walking-right.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/ramona/ramona-walking-right.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/ramona/ramona-walking-right.gif"
+    },
+    {
+      "name": "sabin-walking-left",
+      "character": "sabin",
+      "action": "walking-left",
+      "path": "sprites/sabin/sabin-walking-left.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/sabin/sabin-walking-left.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/sabin/sabin-walking-left.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/sabin/sabin-walking-left.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/sabin/sabin-walking-left.gif"
+    },
+    {
+      "name": "sabin-walking-right",
+      "character": "sabin",
+      "action": "walking-right",
+      "path": "sprites/sabin/sabin-walking-right.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/sabin/sabin-walking-right.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/sabin/sabin-walking-right.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/sabin/sabin-walking-right.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/sabin/sabin-walking-right.gif"
+    },
+    {
+      "name": "sonic-walking-left",
+      "character": "sonic",
+      "action": "walking-left",
+      "path": "sprites/sonic/sonic-walking-left.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/sonic/sonic-walking-left.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/sonic/sonic-walking-left.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/sonic/sonic-walking-left.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/sonic/sonic-walking-left.gif"
+    },
+    {
+      "name": "sonic-walking-right",
+      "character": "sonic",
+      "action": "walking-right",
+      "path": "sprites/sonic/sonic-walking-right.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/sonic/sonic-walking-right.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/sonic/sonic-walking-right.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/sonic/sonic-walking-right.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/sonic/sonic-walking-right.gif"
+    },
+    {
+      "name": "tails-walking-left-flying",
+      "character": "tails",
+      "action": "walking-left-flying",
+      "path": "sprites/tails/tails-walking-left-flying.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/tails/tails-walking-left-flying.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/tails/tails-walking-left-flying.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/tails/tails-walking-left-flying.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/tails/tails-walking-left-flying.gif"
+    },
+    {
+      "name": "tails-walking-right-flying",
+      "character": "tails",
+      "action": "walking-right-flying",
+      "path": "sprites/tails/tails-walking-right-flying.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/tails/tails-walking-right-flying.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/tails/tails-walking-right-flying.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/tails/tails-walking-right-flying.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/tails/tails-walking-right-flying.gif"
+    },
+    {
+      "name": "unsquadpal-walking-left-flying",
+      "character": "unsquadpal",
+      "action": "walking-left-flying",
+      "path": "sprites/unsquadpal/unsquadpal-walking-left-flying.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/unsquadpal/unsquadpal-walking-left-flying.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/unsquadpal/unsquadpal-walking-left-flying.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/unsquadpal/unsquadpal-walking-left-flying.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/unsquadpal/unsquadpal-walking-left-flying.gif"
+    },
+    {
+      "name": "unsquadpal-walking-right-flying",
+      "character": "unsquadpal",
+      "action": "walking-right-flying",
+      "path": "sprites/unsquadpal/unsquadpal-walking-right-flying.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/unsquadpal/unsquadpal-walking-right-flying.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/unsquadpal/unsquadpal-walking-right-flying.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/unsquadpal/unsquadpal-walking-right-flying.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/unsquadpal/unsquadpal-walking-right-flying.gif"
+    },
+    {
+      "name": "vehicle-allen-walking-left",
+      "character": "vehicle-allen",
+      "action": "walking-left",
+      "path": "sprites/vehicle-allen/vehicle-allen-walking-left.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/vehicle-allen/vehicle-allen-walking-left.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/vehicle-allen/vehicle-allen-walking-left.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/vehicle-allen/vehicle-allen-walking-left.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/vehicle-allen/vehicle-allen-walking-left.gif"
+    },
+    {
+      "name": "vehicle-allen-walking-right",
+      "character": "vehicle-allen",
+      "action": "walking-right",
+      "path": "sprites/vehicle-allen/vehicle-allen-walking-right.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/vehicle-allen/vehicle-allen-walking-right.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/vehicle-allen/vehicle-allen-walking-right.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/vehicle-allen/vehicle-allen-walking-right.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/vehicle-allen/vehicle-allen-walking-right.gif"
+    },
+    {
+      "name": "vehicle-walking-left",
+      "character": "vehicle",
+      "action": "walking-left",
+      "path": "sprites/vehicle/vehicle-walking-left.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/vehicle/vehicle-walking-left.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/vehicle/vehicle-walking-left.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/vehicle/vehicle-walking-left.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/vehicle/vehicle-walking-left.gif"
+    },
+    {
+      "name": "vehicle-walking-right",
+      "character": "vehicle",
+      "action": "walking-right",
+      "path": "sprites/vehicle/vehicle-walking-right.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/vehicle/vehicle-walking-right.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/vehicle/vehicle-walking-right.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/vehicle/vehicle-walking-right.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/vehicle/vehicle-walking-right.gif"
+    },
+    {
+      "name": "venom-walking-left",
+      "character": "venom",
+      "action": "walking-left",
+      "path": "sprites/venom/venom-walking-left.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/venom/venom-walking-left.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/venom/venom-walking-left.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/venom/venom-walking-left.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/venom/venom-walking-left.gif"
+    },
+    {
+      "name": "venom-walking-right",
+      "character": "venom",
+      "action": "walking-right",
+      "path": "sprites/venom/venom-walking-right.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/venom/venom-walking-right.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/venom/venom-walking-right.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/venom/venom-walking-right.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/venom/venom-walking-right.gif"
+    },
+    {
+      "name": "wilbur-walking-left",
+      "character": "wilbur",
+      "action": "walking-left",
+      "path": "sprites/wilbur/wilbur-walking-left.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/wilbur/wilbur-walking-left.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/wilbur/wilbur-walking-left.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/wilbur/wilbur-walking-left.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/wilbur/wilbur-walking-left.gif"
+    },
+    {
+      "name": "wilbur-walking-right",
+      "character": "wilbur",
+      "action": "walking-right",
+      "path": "sprites/wilbur/wilbur-walking-right.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/wilbur/wilbur-walking-right.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/wilbur/wilbur-walking-right.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/wilbur/wilbur-walking-right.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/wilbur/wilbur-walking-right.gif"
+    },
+    {
+      "name": "wolverine-walking-left",
+      "character": "wolverine",
+      "action": "walking-left",
+      "path": "sprites/wolverine/wolverine-walking-left.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/wolverine/wolverine-walking-left.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/wolverine/wolverine-walking-left.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/wolverine/wolverine-walking-left.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/wolverine/wolverine-walking-left.gif"
+    },
+    {
+      "name": "wolverine-walking-right",
+      "character": "wolverine",
+      "action": "walking-right",
+      "path": "sprites/wolverine/wolverine-walking-right.gif",
+      "url_pinned": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@v1.0.0/sprites/wolverine/wolverine-walking-right.gif",
+      "url_latest": "https://cdn.jsdelivr.net/gh/BIBOKING-forever/Sprites@main/sprites/wolverine/wolverine-walking-right.gif",
+      "url_fallback": "https://cdn.statically.io/gh/BIBOKING-forever/Sprites/main/sprites/wolverine/wolverine-walking-right.gif",
+      "url_last_resort": "https://raw.githubusercontent.com/BIBOKING-forever/Sprites/main/sprites/wolverine/wolverine-walking-right.gif"
+    }
+  ],
+  "total_sprites": 80
+}
