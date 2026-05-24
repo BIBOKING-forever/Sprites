@@ -29,7 +29,9 @@ jobs:
 
         const OWNER = 'BIBOKING-forever';
         const REPO = 'Sprites';
-        const TAG = 'v1.0.0';
+        // Use @main until a release tag is published. legacy sprites.json
+        // and url_pinned/url_latest all point at @main so URLs work today.
+        const TAG = 'main';
         const ROOT = 'sprites';
 
         const cdnBase = `https://cdn.jsdelivr.net/gh/${OWNER}/${REPO}@${TAG}`;
