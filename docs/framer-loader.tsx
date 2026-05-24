@@ -9,8 +9,9 @@
  *
  * Network strategy per sprite:
  *   1. jsDelivr pinned URL  (cdn.jsdelivr.net/gh/...@v1.0.0/...)
- *   2. statically.io        (cdn.statically.io/gh/.../main/...)
- *   3. raw.githubusercontent.com  (last resort)
+ *   2. jsDelivr @main       (works even before the tag is published)
+ *   3. statically.io        (cdn.statically.io/gh/.../main/...)
+ *   4. raw.githubusercontent.com  (last resort)
  *
  * Every fetch has a 5-second timeout. No infinite hangs.
  */
@@ -22,6 +23,7 @@ const REPO = "Sprites"
 const TAG = "v1.0.0"
 
 const MANIFEST_URL = `https://cdn.jsdelivr.net/gh/${OWNER}/${REPO}@${TAG}/sprites/manifest.json`
+const MANIFEST_LATEST = `https://cdn.jsdelivr.net/gh/${OWNER}/${REPO}@main/sprites/manifest.json`
 const MANIFEST_FALLBACK = `https://cdn.statically.io/gh/${OWNER}/${REPO}/main/sprites/manifest.json`
 const MANIFEST_LAST_RESORT = `https://raw.githubusercontent.com/${OWNER}/${REPO}/main/sprites/manifest.json`
 
@@ -74,6 +76,7 @@ function loadManifest(): Promise<SpriteManifest> {
     if (manifestPromise) return manifestPromise
     manifestPromise = fetchFirstOk([
         MANIFEST_URL,
+        MANIFEST_LATEST,
         MANIFEST_FALLBACK,
         MANIFEST_LAST_RESORT,
     ])
@@ -135,6 +138,7 @@ export function useSprite(name: string) {
 
                 const candidates = [
                     entry.url_pinned,
+                    entry.url_latest,
                     entry.url_fallback,
                     entry.url_last_resort,
                 ]
@@ -201,5 +205,10 @@ function loadImageWithTimeout(src: string, ms: number): Promise<void> {
 export function getSpriteUrls(manifest: SpriteManifest, name: string): string[] {
     const entry = manifest.sprites.find((s) => s.name === name)
     if (!entry) return []
-    return [entry.url_pinned, entry.url_fallback, entry.url_last_resort]
+    return [
+        entry.url_pinned,
+        entry.url_latest,
+        entry.url_fallback,
+        entry.url_last_resort,
+    ]
 }
